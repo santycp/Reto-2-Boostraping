@@ -1,0 +1,76 @@
+body{
+    background: linear-gradient(to bottom right, #dce4e4 0%, #080808 100%);
+    padding: 0;
+    margin: 0;
+    border: none;
+    font-family: 'Martel';
+    font-size: 14px;
+    
+    letter-spacing: 0em;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+
+}
+
+
+.boton{
+    text-align: center;
+    border: 2px solid #573cb1;
+   flex-grow: 1;
+
+    
+}
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: black;
+    background: linear-gradient(to bottom right, #8c928b 10%, #080808ad 100%);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    flex-grow: 1;
+ 
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+}
+span{
+    text-align: center;
+}
+span::first-letter{
+    color:rgb(0, 0, 0);
+}
+.none{
+    display: none;
+    justify-content:center   
+
+   
+}
+.show{
+    display: flex;
+}
+.detalle{
+    display: flex;
+    justify-content: space-evenly;
+}
+.block{
+    display: block;
+    
+}
+.background.gradient {
+    background: black;
+    background: linear-gradient(to bottom right, #129906 0%, #000000 100%);
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.centrar{
+    text-align: center;
+}
